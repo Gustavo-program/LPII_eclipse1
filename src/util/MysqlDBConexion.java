@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class MysqlDBConexion {
 	static{
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver"); //posible errror
 		}catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
